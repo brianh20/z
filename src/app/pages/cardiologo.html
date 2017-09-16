@@ -1,54 +1,126 @@
-<!-- nuevo sensor -->
-	<div class="container">
-		<div class="page-header">
-			<h1>Nuevo sensor</h1>
-		</div>
-		<form class="form-horizontal">
-			<div class="form-group">
-				<label class="control-label col-sm-2">ID Sensor</label>
-				<div class="col-sm-8">
-					<input type="text" class="form-control" placeholder="Ingrese el código identificador del sensor">
-				</div>
-			</div>
+<!--dashboard cardiologo -->
+  <div class="container-fluid">
+      
+      <!-- Listado de pacientes -->
+      <div class="col-md-2">
+        
+        <table class="table">
+          
+          <thead>
+            <tr>
+              <th>Pacientes</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr> <td>Aguilar, Arnau</td> </tr>
+            <tr> <td class="active">Aranguren, Raul</td> </tr>
+            <tr> <td>Balcarce, Silvia</td> </tr>
+            <tr> <td>Camargo, Pablo</td> </tr>
+            <tr> <td>Castillo, Martina</td> </tr>
+            <tr> <td>Garrido, Juan</td> </tr>
+            <tr> <td>Gimenez, Adam</td> </tr>
+          </tbody>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2">Tipo de Sensor:</label>
-				<div class="col-sm-2">
-					<select class="form-control">
-						<option>Apertura</option>
-						<option>Encendido</option>
-						<option>Movimiento</option>
-						<option>Posición</option>
-					</select>
-				</div>
+        </table>
 
-				<label class="control-label col-sm-2">Estado Actual</label>
-					<button class="col-sm-2 btn btn-default" onClick="alert('Sensor sin señal')">Probar Sensor</button>
-					<div class="col-sm-2">
-						<input type="text" class="form-control" placeholder="Sin señal" readonly>
-					</div>
-			</div>
+      </div>
+      <!-- Listado de Pacientes -->
 
-			<div class="form-group">
-				<label class="control-label col-sm-2">Asociar a Elemento:</label>
-				<div class="col-sm-7">
-					<select class="form-control">
-						<option>Heladera 1 - Nro. Serie: 951623847</option>
-						<option>Heladera 2 - Nro. Serie: 753428691</option>
-						<option>Heladera 3 - Nro. Serie: 852964136</option>
-						<option>Heladera 4 - Nro. Serie: 657142983</option>
-					</select>
-				</div>
-				<div class="col-sm-1">
-					<button class="btn btn-default" style="width: 100%;"><span class="glyphicon glyphicon-search"></span></button>
-				</div>
-			</div>
+      <!-- Historia Clinica Paciente -->
+      <div class="col-md-4" style="background-color: #f5f5f5; padding: 15px;">
+        <div style="margin-bottom: 10px; display: flex; align-items: center; justify-content: space-around;">
+          <div style="display:inline"><img src="app/assets/persona-big.jpeg" style="width: 100px; border-radius: 50%;"/></div>
+          <div style="display:inline"><h1>Raul Aranguren<h1></div>
+        </div>
 
-			<div class="form-group">
-				<div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">Agregar Sensor</button>
-				</div>
-			</div>
-		</form>
-	</div>
-<!-- nuevo sensor -->
+        <div>
+          <!-- datos personales -->
+          <table class="table table-condensed">
+            <!-- <thead>
+              <tr>
+                <td>Datos Personales</td>
+              </tr>
+             --></thead>
+            <tbody>
+              <tr>
+                <td class="col-md-5">Fecha de Nacimiento</td>
+                <td>12/09/1970</td>
+              </tr>
+
+              <tr>
+                <td>Direccion</td>
+                <td>Av. Santa Fe 2976</td>
+              </tr>
+
+              <tr>
+                <td>Telefono de Contacto</td>
+                <td>(11) 4676-4354</td>
+              </tr>
+
+              <tr>
+                <td>Telefono de Emergencia</td>
+                <td>(11) 5445-6978</td>
+              </tr>
+
+              <tr>
+                <td>Alergias</td>
+                <td>
+                  <ul class="list-unstyled">
+                    <li>Polen</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- datos personales -->
+        </div>
+      </div>
+      <!-- Historia Clinica Paciente -->
+
+
+      <div class="col-md-6">
+        
+        <!-- Recetario Digital -->
+        <div class="col-md-12">
+          <table class="table">
+            
+            <thead>
+              <tr>
+                <th>Recetario Digital</th>
+              </tr>
+              <tr>
+                <th>Medicamento</th>
+                <th>Principio Activo</th>
+                <th>Concetracion</th>
+                <th>Laboratorio</th>
+                <th>Accion</th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr> 
+                <td>Amoxidal</td>
+                <td>Amoxicilina</td>
+                <td>500mg</td>
+                <td>Roemmers</td>
+                <td style="display:flex; align-items: center; justify-content: space-around;">
+                  <span class="glyphicon glyphicon-plus" style="color: green;"></span>
+                  <span class="glyphicon glyphicon-minus" style="color: blue;"></span>
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+        <!-- Recetario Digital -->
+
+        <!-- Links Utiles -->
+        <!-- <div class="col-md-12">
+          <h3>Links Utiles</h3>
+        </div> -->
+        <!-- Links Utiles -->
+
+      </div>
+  </div>
+<!-- dashboard cardiologo
