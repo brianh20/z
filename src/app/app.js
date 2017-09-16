@@ -21,9 +21,16 @@ app.config(function($stateProvider){
 		templateUrl : '/app/pages/laboratorio.html'
 	}
 
+	var login = {
+		name: 'login',
+		url: '/login',
+		templateUrl : '/app/pages/login.html'
+	}
+
 	$stateProvider.state(home);
 	$stateProvider.state(cardiologo);
 	$stateProvider.state(laboratorio);
+	$stateProvider.state(login);
 });
 
 app.directive('navbar', function(){
