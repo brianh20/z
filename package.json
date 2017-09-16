@@ -6,10 +6,10 @@
   "scripts": {
     "postinstall": "bower install && gulp"
   },
-  // "repository": {
-  //   "type": "git",
-  //   "url": "git+https://github.com/brianh20/"
-  // },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianh20/"
+  },
   "author": "Brian Hume",
   "license": "SEE LICENSE IN readme.txt",
   "bugs": {
