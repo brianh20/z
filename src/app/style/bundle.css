@@ -1,0 +1,41 @@
+body {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+h4 {
+  color: lightgrey;
+  padding-right: 30px;
+}
+.container {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 lightgrey, 0 6px 20px 0 lightgrey;
+  margin-top: 20px;
+}
+.navbar-brand {
+  color: lightgrey!important;
+}
+.page-header {
+  margin-top: 0px;
+}
+.footer {
+  margin-top: 65px;
+}
+.icon-green {
+  color: green;
+}
+.icon-yellow {
+  color: darkkhaki;
+}
+.icon-red {
+  color: darkred;
+}
+#elementMap {
+  width: 100%;
+  height: 330px;
+}
+.borderlessCellTop {
+  border-top: none!important;
+}
+
+/*# sourceMappingURL=bundle.css.map */

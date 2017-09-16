@@ -1,0 +1,29 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "Zotco POC",
+  "main": "gulpfile.js",
+  "scripts": {
+    "postinstall": "bower install && gulp"
+  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git+https://github.com/brianh20/"
+  // },
+  "author": "Brian Hume",
+  "license": "SEE LICENSE IN readme.txt",
+  "bugs": {
+    "url": "https://github.com/brianh20/"
+  },
+  "homepage": "https://github.com/brianh20/",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.2",
+    "gulp-less": "^3.2.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}
