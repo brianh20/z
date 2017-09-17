@@ -5,8 +5,14 @@ app.config(function($stateProvider){
 
 	var home = {
 		name: 'home',
-		url: '',
+		url: '/home',
 		templateUrl : '/app/pages/home.html'
+	}
+
+	var index = {
+		name: 'index',
+		url: '',
+		templateUrl : 'app/pages/index.html'
 	}
 
 	var cardiologo = {
@@ -31,6 +37,7 @@ app.config(function($stateProvider){
 	$stateProvider.state(cardiologo);
 	$stateProvider.state(laboratorio);
 	$stateProvider.state(login);
+	$stateProvider.state(index);
 });
 
 app.directive('navbar', function(){
